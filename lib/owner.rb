@@ -59,4 +59,12 @@ class Owner
     @pets[:fishes].collect{|fish| fish.mood = "happy"}
   end
 
+  def sell_pets
+    @pets.collect do |pet_groups|
+      pet_groups.collect do |pets|
+        pets.mood = "nervous"
+      end
+    end 
+  end
+
 end
