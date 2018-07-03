@@ -16,5 +16,9 @@ class Owner
     @@all << self
   end
 
+  def owner_count
+    @@all.size
+  end 
+
 
 end
