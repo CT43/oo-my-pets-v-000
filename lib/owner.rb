@@ -33,7 +33,7 @@ class Owner
   end
 
   def buy_fish(name)
-    fish.new
+    Fish.new(name)
   end
 
 end
