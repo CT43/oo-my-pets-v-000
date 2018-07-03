@@ -5,6 +5,7 @@ class Owner
 
   def initialize(name)
     @name = name
+    self.save
   end
 
   def self.all
@@ -14,6 +15,6 @@ class Owner
   def save
     @@all << self
   end
-  
+
 
 end
