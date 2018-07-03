@@ -64,9 +64,8 @@ class Owner
       pet_groups.collect do |pets|
         pets.mood = "nervous"
       end
-    end 
-  end 
-  
+    end
   end
+  
 
 end
